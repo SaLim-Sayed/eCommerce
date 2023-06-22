@@ -11,7 +11,8 @@ function App() {
     <div className="App"  style={{ backgroundColor: "#1c6266" ,marginBottom:"0px"}}>
       <NavBar />
       <Routes>
-        <Route  path="/" element={<Slider />} />
+        <Route  path="/*" element={<Slider />} />
+        <Route  path="/eCommerce" element={<Slider />} />
         <Route path="/products" element={<ProductsList/>} />
         <Route path="/product/:productId" element={<ProductDetails/>} />
       </Routes>
