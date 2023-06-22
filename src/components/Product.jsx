@@ -4,7 +4,7 @@ import { NavLink, Button } from "react-bootstrap";
 function Product({ product }) {
   return (
     <div className="col col-lg-3 col-md-6 col-sm-12 my-2 px-4 " style={{color:"#fff"}}>
-      <NavLink href={`/product/${product.id}`}>
+      <NavLink href={`/eCommerce/product/${product.id}`}>
         <div
           className="card"
           style={{ backgroundColor: "#FFF", height: "400px" }}

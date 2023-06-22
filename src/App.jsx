@@ -13,8 +13,8 @@ function App() {
       <Routes>
         <Route  path="/*" element={<Slider />} />
         <Route  path="/eCommerce" element={<Slider />} />
-        <Route path="/products" element={<ProductsList/>} />
-        <Route path="/product/:productId" element={<ProductDetails/>} />
+        <Route path="/eCommerce/products" element={<ProductsList/>} />
+        <Route path="/eCommerce/product/:productId" element={<ProductDetails/>} />
       </Routes>
       <Footer/>
       
