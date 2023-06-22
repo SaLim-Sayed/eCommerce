@@ -1,10 +1,10 @@
 import React from "react";
 import "./product.css";
-import { NavLink, Button } from "react-bootstrap";
+import { Nav, Button } from "react-bootstrap";
 function Product({ product }) {
   return (
     <div className="col col-lg-3 col-md-6 col-sm-12 my-2 px-4 " style={{color:"#fff"}}>
-      <NavLink href={`/eCommerce/product/${product.id}`}>
+      <Nav.Link href={`/eCommerce/product/${product.id}`}>
         <div
           className="card"
           style={{ backgroundColor: "#FFF", height: "400px" }}
@@ -39,7 +39,7 @@ function Product({ product }) {
            <h4> Details</h4>
           </Button>
         </div>
-      </NavLink>
+      </Nav.Link>
     </div>
   );
 }
